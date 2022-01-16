@@ -4,14 +4,16 @@ import React from 'react';
 // We assign them to their own variable names
 function NavTabs({ currentPage, handlePageChange }) {
   return (
-    <nav class="navbar navbar-expand navbar-light bg-light">
+    <nav class="navbar navbar-expand navbar-dark nav-style">
       <div class="container-fluid">
+        {/* Logo */}
         <a
           class="navbar-brand logo"
           href="#"
           onClick={() => handlePageChange('About')}>
-          Shao Studio
+          Shao <span class="accent-color">Studio</span>
         </a>
+        {/* Nav Bar */}
         <ul className="navbar-nav">
           <li className="nav-item">
             <a

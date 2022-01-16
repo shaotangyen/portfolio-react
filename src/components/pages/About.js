@@ -2,16 +2,22 @@ import React from 'react';
 
 export default function About() {
   return (
-    <div>
-      <h1>About Page</h1>
-      <p>
-        Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
-        Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
-        mollis diam. Nunc aliquet risus ac finibus porta. Nam quis arcu non
-        lectus tincidunt fermentum. Suspendisse aliquet orci porta quam semper
-        imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus
-        in. Sed rhoncus mollis diam, sit amet facilisis lectus blandit at.
-      </p>
+    <div class="container d-flex justify-content-center">
+      <div class="vh-90 w-50 text-center d-flex align-items-center">
+        <div class="">
+          <h1>About <span class="accent-color">Me</span></h1>
+          <img class="myphoto" src="https://shaotangyen.github.io/Shao-Yen-Portfolio-Website/images/Shao-photo-2.jpg" alt="An portrait of Shao Yen"></img>
+          <p>
+          This is <span class="accent-color">Shao</span>, currently based in Sydney, Australia. Been in digital marketing and event management in video game industry for 9 years. Studied <span class="accent-color">Full-Stack Web Development</span> bootcamp of Sydney University last half year and worked on many web projects which helped me developed essential skills. I also have a strong Computer Science and Math background.
+          </p>
+          <p class="fst-italic">
+            #HTML #CSS #JavaScript #Node #MySQL #React #Java #Photoshop #Premiere #AfterEffects #MSOffice
+          </p>
+          <p>
+            Feel free to reach out.
+          </p>
+        </div>
+      </div>
     </div>
   );
 }

@@ -1,17 +1,59 @@
 @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300;400;500&family=Orbitron:wght@400;500;800&display=swap');
 
+:root{
+  --bg:#19224c;
+  --nav-bg:#243997;
+  --accent:#00c0c4;
+  --secondary: #bbbed1;
+}
+
 h1 {
   font-family: 'Orbitron', sans-serif;
-  font-weight: 400;
+  font-weight: 500;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color: white;
 }
 
 body {
   font-family: 'Chakra Petch', sans-serif;
+  background-color: var(--bg);
+  color: var(--secondary);
 }
 
 .logo {
   font-family: 'Orbitron', sans-serif;
   font-weight: 800;
 }
+
+.vh-90{
+  height: 90vh;
+}
+
+.about-me{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.myphoto {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50px;
+  margin: 30px;
+}
+
+.nav-style {
+  background-color: var(--nav-bg);
+}
+
+.secondary-color{
+  color: var(--secondary);
+}
+
+.accent-color{
+  color: var(--accent);
+}
+
