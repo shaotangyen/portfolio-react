@@ -5,7 +5,7 @@ import React from 'react';
 function NavTabs({ currentPage, handlePageChange }) {
   return (
     <nav class="navbar navbar-expand navbar-dark nav-style">
-      <div class="container-fluid">
+      <div class="container">
         {/* Logo */}
         <a
           class="navbar-brand logo"

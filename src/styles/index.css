@@ -3,8 +3,16 @@
 :root{
   --bg:#19224c;
   --nav-bg:#243997;
-  --accent:#00c0c4;
+  --accent:rgb(74, 252, 255);
   --secondary: #bbbed1;
+}
+
+a {
+  color: white;
+}
+
+a:hover{
+  color: var(--accent);
 }
 
 h1 {
@@ -57,3 +65,48 @@ body {
   color: var(--accent);
 }
 
+.project-pic {
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 30px;
+  padding:5%;
+  transition: 0.5s ease;
+}
+
+/* .project-pic:hover {
+  border-radius: 50px;
+  filter:opacity(30%);
+  transition: 0.5s ease;
+} */
+
+.project{
+  position: relative;
+  transition: 0.5s ease;
+}
+
+.project:hover .project-content{
+  filter:opacity(100%);
+  font-size: 1.5rem;
+  transition: 0.5s ease;
+}
+
+.project:hover .project-pic{
+  border-radius: 50px;
+  filter:opacity(30%);
+  transition: 0.5s ease;
+}
+
+.project-content{
+  position:absolute;
+  filter:opacity(0%);
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  z-index: 1;
+}
+
+.project-title a{
+  font-family: 'Orbitron';
+  font-weight: 500;
+}
