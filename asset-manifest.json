@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/portfolio-react/static/css/main.2bf3dab6.css",
-    "main.js": "/portfolio-react/static/js/main.2fca29ae.js",
+    "main.css": "/portfolio-react/static/css/main.fdaa279e.css",
+    "main.js": "/portfolio-react/static/js/main.f4d2f723.js",
     "static/media/ShaoTangYen_Dev_Resume.pdf": "/portfolio-react/static/media/ShaoTangYen_Dev_Resume.1361e495134399e8046f.pdf",
+    "static/media/top-banner-1.jpg": "/portfolio-react/static/media/top-banner-1.2e9240916539d7e299fb.jpg",
     "static/media/project-01.jpg": "/portfolio-react/static/media/project-01.b47e8269b9de35d3786d.jpg",
     "static/media/project-06.jpg": "/portfolio-react/static/media/project-06.ae51a0dfb2d8d58ede94.jpg",
     "static/media/project-02.jpg": "/portfolio-react/static/media/project-02.f299504b1e0ef40df8a3.jpg",
@@ -11,11 +12,11 @@
     "static/media/project-05.jpg": "/portfolio-react/static/media/project-05.d000c2b5bebfa9783e8e.jpg",
     "static/media/project-04.jpg": "/portfolio-react/static/media/project-04.b0fa01dc24aaeae53108.jpg",
     "index.html": "/portfolio-react/index.html",
-    "main.2bf3dab6.css.map": "/portfolio-react/static/css/main.2bf3dab6.css.map",
-    "main.2fca29ae.js.map": "/portfolio-react/static/js/main.2fca29ae.js.map"
+    "main.fdaa279e.css.map": "/portfolio-react/static/css/main.fdaa279e.css.map",
+    "main.f4d2f723.js.map": "/portfolio-react/static/js/main.f4d2f723.js.map"
   },
   "entrypoints": [
-    "static/css/main.2bf3dab6.css",
-    "static/js/main.2fca29ae.js"
+    "static/css/main.fdaa279e.css",
+    "static/js/main.f4d2f723.js"
   ]
 }
