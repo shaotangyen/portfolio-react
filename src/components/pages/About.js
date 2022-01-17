@@ -1,11 +1,11 @@
 import React from 'react';
-import profilePic from "../assets/Shao-photo-2.jpg";
+import profilePic from "../../assets/Shao-photo-2.jpg";
 import TypeAnimation from 'react-type-animation';
 
 export default function About() {
   return (
     <div className="container d-flex justify-content-center">
-      <div className="vh-90 w-50 text-center d-flex align-items-center">
+      <div className="vh-80 w-50 text-center d-flex align-items-center">
         <div>
           <h1>About <span className="accent-color">Me</span></h1>
           <img className="myphoto" src={profilePic} alt="An portrait of Shao Yen"></img>

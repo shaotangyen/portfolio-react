@@ -1,7 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './styles/index.css';
+import PortfolioContainer from "./components/PortfolioContainer";
+import App from './App';
+// const App = () => <PortfolioContainer />;
 
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(<PortfolioContainer />, document.getElementById('root'));

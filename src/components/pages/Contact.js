@@ -85,10 +85,10 @@ export default function Contact() {
   return (
     <div>
       <div className="container d-flex justify-content-center">
-        <div className="vh-90 d-flex align-items-center">
+        <div className="vh-80 d-flex align-items-center">
           <div className="contact-form">
             <h1 className='text-center mb-3'>Contact <span className="accent-color">Me</span></h1>
-            <p className='text-center mb-4'>If you have any enquires or interest in what I do, feel free to reach out by filling out the form below. I will get back to you as soon you possible. Cheers.</p>
+            <p className='text-center mb-4'>If you have any enquires or interest in what I do, feel free to reach out to me by filling out the form below, send me a text via mobile (check out Resume) or message me on LinkedIn. I will get back to you as soon you possible. Cheers.</p>
             <form>
               <div className="mb-3">
                 <label className='form-label'>Your Name</label>

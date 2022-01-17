@@ -9,10 +9,12 @@
 
 a {
   color: white;
+  transition: 0.5s ease;
 }
 
 a:hover{
   color: var(--accent);
+  transition: 0.5s ease;
 }
 
 h1 {
@@ -34,8 +36,8 @@ body {
   font-weight: 800;
 }
 
-.vh-90{
-  height: 90vh;
+.vh-80{
+  height: 80vh;
 }
 
 .about-me{
@@ -74,12 +76,6 @@ body {
   transition: 0.5s ease;
 }
 
-/* .project-pic:hover {
-  border-radius: 50px;
-  filter:opacity(30%);
-  transition: 0.5s ease;
-} */
-
 .project{
   position: relative;
   transition: 0.5s ease;
@@ -87,7 +83,6 @@ body {
 
 .project:hover .project-content{
   filter:opacity(100%);
-  font-size: 1.5rem;
   transition: 0.5s ease;
 }
 
@@ -109,6 +104,7 @@ body {
 .project-title a{
   font-family: 'Orbitron';
   font-weight: 500;
+  font-size: 1.5rem;
 }
 
 .contact-form{
@@ -130,8 +126,23 @@ body {
 .btn-main{
   color: white;
   background-color: var(--nav-bg);
+  transition: 0.5s ease;
+}
+
+.btn-main:hover{
+  color: var(--accent);
+  border-radius: 10px;
+  transition: 0.5s ease;
 }
 
 .w-500{
   width: 500px; 
+}
+
+.footer-link{
+  color: var(--secondary);
+}
+
+.footer-link:hover{
+   font-size: 1.2rem; 
 }
