@@ -4,15 +4,15 @@ import TypeAnimation from 'react-type-animation';
 
 export default function About() {
   return (
-    <div class="container d-flex justify-content-center">
-      <div class="vh-90 w-50 text-center d-flex align-items-center">
+    <div className="container d-flex justify-content-center">
+      <div className="vh-90 w-50 text-center d-flex align-items-center">
         <div>
-          <h1>About <span class="accent-color">Me</span></h1>
-          <img class="myphoto" src={profilePic} alt="An portrait of Shao Yen"></img>
+          <h1>About <span className="accent-color">Me</span></h1>
+          <img className="myphoto" src={profilePic} alt="An portrait of Shao Yen"></img>
           <p>
-          This is <span class="accent-color">Shao</span>, currently based in Sydney, Australia. Been in digital marketing and event management in video game industry for 9 years. Studied <span class="accent-color">Full-Stack Web Development</span> bootcamp of Sydney University last half year and worked on many web projects which helped me developed essential skills. I also have a strong Computer Science and Math background.
+          This is <span className="accent-color">Shao</span>, currently based in Sydney, Australia. Been in digital marketing and event management in video game industry for 9 years. Studied <span className="accent-color">Full-Stack Web Development</span> bootcamp of Sydney University last half year and worked on many web projects which helped me developed essential skills. I also have a strong Computer Science and Math background.
           </p>
-          <p class="fst-italic">
+          <div className="fst-italic">
             {/* #HTML #CSS #JavaScript #Node #MySQL #React #Java #Photoshop #Premiere #AfterEffects #MSOffice */}
             {/* Found this interesting lib: https://www.npmjs.com/package/react-type-animation for typing animation */}
             <TypeAnimation
@@ -22,8 +22,7 @@ export default function About() {
               }
               repeat='1'
               />
-          </p>
-          <p>
+          </div>
           <TypeAnimation
               cursor={false}
               sequence={ 
@@ -34,7 +33,6 @@ export default function About() {
               cursor='true'
               repeat='Infinity'
               />
-          </p>
         </div>
       </div>
     </div>

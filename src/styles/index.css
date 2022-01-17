@@ -110,3 +110,28 @@ body {
   font-family: 'Orbitron';
   font-weight: 500;
 }
+
+.contact-form{
+  width: 500px; 
+  /* min-width: 500px; */
+  padding: 1.5rem;
+}
+
+.error-msg{
+  height: 24px;
+  color:var(--accent);
+}
+
+.note-msg{
+  height: 24px;
+  color:var(--accent);
+}
+
+.btn-main{
+  color: white;
+  background-color: var(--nav-bg);
+}
+
+.w-500{
+  width: 500px; 
+}
