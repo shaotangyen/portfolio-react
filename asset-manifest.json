@@ -1,7 +1,8 @@
 {
   "files": {
-    "main.css": "/portfolio-react/static/css/main.67bfc00f.css",
-    "main.js": "/portfolio-react/static/js/main.0951760a.js",
+    "main.css": "/portfolio-react/static/css/main.b83e4c27.css",
+    "main.js": "/portfolio-react/static/js/main.557185f9.js",
+    "static/media/ShaoTangYen_Dev_Resume.pdf": "/portfolio-react/static/media/ShaoTangYen_Dev_Resume.1361e495134399e8046f.pdf",
     "static/media/project-01.jpg": "/portfolio-react/static/media/project-01.e14033b28b329f354bd2.jpg",
     "static/media/project-03.jpg": "/portfolio-react/static/media/project-03.18d7cf7c673ebd6e76f7.jpg",
     "static/media/Shao-photo-2.jpg": "/portfolio-react/static/media/Shao-photo-2.98632ce78961911f0158.jpg",
@@ -9,11 +10,11 @@
     "static/media/project-04.jpg": "/portfolio-react/static/media/project-04.ae1ef2ed80ee7713bc72.jpg",
     "static/media/project-05.jpg": "/portfolio-react/static/media/project-05.a8c7270bbb8c08493aa2.jpg",
     "index.html": "/portfolio-react/index.html",
-    "main.67bfc00f.css.map": "/portfolio-react/static/css/main.67bfc00f.css.map",
-    "main.0951760a.js.map": "/portfolio-react/static/js/main.0951760a.js.map"
+    "main.b83e4c27.css.map": "/portfolio-react/static/css/main.b83e4c27.css.map",
+    "main.557185f9.js.map": "/portfolio-react/static/js/main.557185f9.js.map"
   },
   "entrypoints": [
-    "static/css/main.67bfc00f.css",
-    "static/js/main.0951760a.js"
+    "static/css/main.b83e4c27.css",
+    "static/js/main.557185f9.js"
   ]
 }
