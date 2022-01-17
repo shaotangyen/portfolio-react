@@ -4,11 +4,11 @@ import TypeAnimation from 'react-type-animation';
 
 export default function About() {
   return (
-    <div className="container d-flex justify-content-center">
-      <div className="vh-80 w-50 text-center d-flex align-items-center">
+    <div className="container d-flex justify-content-center mt-5">
+      <div className="about-me text-center d-flex align-items-center">
         <div>
           <h1>About <span className="accent-color">Me</span></h1>
-          <img className="myphoto" src={profilePic} alt="An portrait of Shao Yen"></img>
+          <img className="about-me-photo" src={profilePic} alt="An portrait of Shao Yen"></img>
           <p>
           This is <span className="accent-color">Shao</span>, currently based in Sydney, Australia. Been in digital marketing and event management in video game industry for 9 years. Studied <span className="accent-color">Full-Stack Web Development</span> bootcamp of Sydney University last half year and worked on many web projects which helped me developed essential skills. I also have a strong Computer Science and Math background.
           </p>

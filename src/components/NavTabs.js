@@ -14,18 +14,18 @@ function NavTabs({ currentPage, handlePageChange }) {
           Shao <span className="accent-color">Studio</span>
         </a>
         {/* Nav Bar */}
-        <ul className="navbar-nav">
-          <li className="nav-item">
+        <ul className="navbar-nav row text-end">
+          <li className="nav-item col">
             <a
               href="#about"
               onClick={() => handlePageChange('About')}
               // Check to see if the currentPage is `About`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
               className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
             >
-              About Me
+              About
             </a>
           </li>
-          <li className="nav-item">
+          <li className="nav-item col">
             <a
               href="#portfolio"
               onClick={() => handlePageChange('Portfolio')}
@@ -35,7 +35,7 @@ function NavTabs({ currentPage, handlePageChange }) {
               Portfolio
             </a>
           </li>
-          <li className="nav-item">
+          <li className="nav-item col">
             <a
               href="#contact"
               onClick={() => handlePageChange('Contact')}
@@ -45,7 +45,7 @@ function NavTabs({ currentPage, handlePageChange }) {
               Contact
             </a>
           </li>
-          <li className="nav-item">
+          <li className="nav-item col">
             <a
               href="#resume"
               onClick={() => handlePageChange('Resume')}

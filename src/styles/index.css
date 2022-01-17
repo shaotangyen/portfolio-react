@@ -31,34 +31,6 @@ body {
   color: var(--secondary);
 }
 
-.logo {
-  font-family: 'Orbitron', sans-serif;
-  font-weight: 800;
-}
-
-.vh-80{
-  height: 80vh;
-}
-
-.about-me{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-}
-
-.myphoto {
-  width: 200px;
-  height: 200px;
-  object-fit: cover;
-  border-radius: 50px;
-  margin: 30px;
-}
-
-.nav-style {
-  background-color: var(--nav-bg);
-}
-
 .secondary-color{
   color: var(--secondary);
 }
@@ -66,6 +38,33 @@ body {
 .accent-color{
   color: var(--accent);
 }
+
+/* Nav Section */
+
+.logo {
+  font-family: 'Orbitron', sans-serif;
+  font-weight: 800;
+}
+
+.nav-style {
+  background-color: var(--nav-bg);
+}
+
+/* About Section */
+.about-me{
+  width: 680px;
+  margin: 10% 0 10% 0;
+}
+
+.about-me-photo {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50px;
+  margin: 30px;
+}
+
+/* Portfolio Section */
 
 .project-pic {
   width: 400px;
@@ -107,10 +106,15 @@ body {
   font-size: 1.5rem;
 }
 
+.portfolio{
+  width: 500px; 
+}
+
+/* Contact Section */
+
 .contact-form{
   width: 500px; 
-  /* min-width: 500px; */
-  padding: 1.5rem;
+  margin: 10% 0 10% 0;
 }
 
 .error-msg{
@@ -135,9 +139,13 @@ body {
   transition: 0.5s ease;
 }
 
-.w-500{
-  width: 500px; 
+/* Resume Section */
+
+.resume{
+  width: 680px;
 }
+
+/* Footer Section */
 
 .footer-link{
   color: var(--secondary);
@@ -145,4 +153,63 @@ body {
 
 .footer-link:hover{
    font-size: 1.2rem; 
+}
+
+/* tablet */
+@media screen and (max-width: 768px){
+
+  /* About Section */
+  .about-me{
+    width: 400px;
+  }
+
+  .about-me-photo {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 30px;
+    margin: 30px;
+  }
+
+  /* Portfolio */
+  .portfolio{
+    width:fit-content;
+  }
+
+  .project-pic {
+    width: 350px;
+    height: 350px;
+  }
+
+}
+
+/* mobile-S */
+@media screen and (max-width: 375px){
+  /* global */
+  body{
+    font-size: 0.9rem;
+  }
+
+  /* About Section */
+  .about-me{
+    width: 260px;
+    margin: 0;
+  }
+
+  .about-me-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 30px;
+  }
+
+  /* Portfolio */
+  .project-pic {
+    width: 300px;
+    height: 300px;
+  }
+
+  /* Contact Section */
+  .contact-form{
+    width: 300px;
+  }
 }
