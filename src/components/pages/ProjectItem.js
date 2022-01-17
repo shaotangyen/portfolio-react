@@ -11,6 +11,7 @@ export default function ProjectItem(props) {
     <div className="col">
       <div className="project">
         <div className="project-content">
+          {/* display project title, git link and description */}
           <div className="project-title text-center">
             <a target="_blank" href={props.titleLink}>{props.title}</a>
             <a target="_blank" href={props.gitLink} className='mx-2'>
@@ -19,6 +20,7 @@ export default function ProjectItem(props) {
           </div>
           <div className="project-desc text-center mt-3">{props.desc}</div>
         </div>
+        {/* display project image */}
         <img className="project-pic" src={props.img} alt={props.imgAlt}></img>
       </div>
     </div>

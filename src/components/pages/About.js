@@ -13,8 +13,7 @@ export default function About() {
           This is <span className="accent-color">Shao</span>, currently based in Sydney, Australia. Been in digital marketing and event management in video game industry for 9 years. Studied <span className="accent-color">Full-Stack Web Development</span> bootcamp of Sydney University last half year and worked on many web projects which helped me developed essential skills. I also have a strong Computer Science and Math background.
           </p>
           <div className="fst-italic">
-            {/* #HTML #CSS #JavaScript #Node #MySQL #React #Java #Photoshop #Premiere #AfterEffects #MSOffice */}
-            {/* Found this interesting lib: https://www.npmjs.com/package/react-type-animation for typing animation */}
+            {/* Found an interesting lib for typing animation: https://www.npmjs.com/package/react-type-animation */}
             <TypeAnimation
               cursor={false}
               sequence={ 

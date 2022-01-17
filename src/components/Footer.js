@@ -5,8 +5,7 @@ import { fab } from '@fortawesome/free-brands-svg-icons'
 
 library.add(fab);
 
-// Here we are using object destructuring assignment to pluck off our variables from the props object
-// We assign them to their own variable names
+// Footer, using Font Awesome's library to display icons
 function Footer() {
   return (
       <footer className="d-flex flex-wrap justify-content-center align-items-center py-3 my-5">

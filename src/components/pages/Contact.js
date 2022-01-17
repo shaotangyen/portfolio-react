@@ -25,8 +25,8 @@ export default function Contact() {
 
   const handleFormSubmit = (e) => {
     e.preventDefault();
-    //check if all fields are filled and email format is correct
-    if (!errorMsg && !errorEmailFormatMsg) {
+    //check if all fields are filled and there's no error messages
+    if (!errorMsg && !errorEmailFormatMsg && name && email && msg) {
       setNoteMsg('Successfully Sent');
       setName('');
       setEmail('');

@@ -7,7 +7,6 @@ import project4Img from "../../assets/project-04.jpg";
 import project5Img from "../../assets/project-05.jpg";
 import project6Img from "../../assets/project-06.jpg";
 
-//Still need to update project images and details
 const project1 = {
   title: "Art House",
   desc: "Search your favorite artist and their artwork. #Groupproject #JavaScript #jQuery #CSS #HTML #API",
@@ -60,7 +59,7 @@ const project6 = {
 export default function Portfolio() {
   return (
     <div className="container text-center mt-5">
-      {/* title & description */}
+      {/* page title & description */}
       <h1 className='mb-3'>Portfo<span className="accent-color">lio</span></h1>
       <p className='portfolio mx-auto mb-5'>Mouse over on below projects to link to the application or Github page as you desire. If you have any questions, feel free to reach out to me via the Contact page.</p>
       {/* list of project demos using the ProjectItem class passing in props */}

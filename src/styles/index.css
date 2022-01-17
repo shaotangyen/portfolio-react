@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300;400;500&family=Orbitron:wght@400;500;800&display=swap');
 
+/* global stlying */
+
 :root{
   --bg:#19224c;
   --nav-bg:#243997;
@@ -50,7 +52,6 @@ body {
   width: 100%;
   object-fit: cover;
   filter:opacity(30%);
-  /* position:absolute; */
 }
 
 /* Nav Section */
@@ -74,6 +75,7 @@ body {
 }
 
 /* About Section */
+
 .about-me{
   width: 680px;
   margin: 10% 0 10% 0;
@@ -178,10 +180,12 @@ body {
    font-size: 1.2rem; 
 }
 
-/* tablet */
+/* mobile responsive: tablet */
+
 @media screen and (max-width: 768px){
 
   /* About Section */
+
   .about-me{
     width: 400px;
   }
@@ -195,6 +199,7 @@ body {
   }
 
   /* Portfolio */
+
   .portfolio{
     width:fit-content;
   }
@@ -206,14 +211,17 @@ body {
 
 }
 
-/* mobile-S */
+/* mobile responsive: mobile (small) */
 @media screen and (max-width: 375px){
+
   /* global */
+
   body{
     font-size: 0.9rem;
   }
 
   /* About Section */
+
   .about-me{
     width: 260px;
     margin: 0;
@@ -226,12 +234,14 @@ body {
   }
 
   /* Portfolio */
+
   .project-pic {
     width: 300px;
     height: 300px;
   }
 
   /* Contact Section */
+  
   .contact-form{
     width: 300px;
   }
