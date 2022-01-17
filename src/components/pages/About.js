@@ -18,7 +18,7 @@ export default function About() {
             <TypeAnimation
               cursor={false}
               sequence={ 
-                ['#HTML #CSS #JavaScript #Node #MySQL #React #Java #Photoshop #Premiere #AfterEffects #MSOffice']
+                ['#HTML #CSS #JavaScript #React #Node #Express #API #MySQL #MongoDB #IndexedDB #Java #UIDesign #Photoshop #Premiere #AfterEffects #MSOffice']
               }
               repeat='1'
               />
@@ -27,7 +27,7 @@ export default function About() {
               cursor={false}
               sequence={ 
                 ['Hello, welcome!', 3000,
-                  'Natigation on the top right meun', 3000,
+                  'Natigation on the top right menu', 3000,
                 'Feel free to reach out', 10000]
               }
               cursor='true'
